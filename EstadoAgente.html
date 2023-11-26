@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado del Analista</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .estado-analista {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .conectado {
+            color: #4CAF50;
+        }
+
+        .desconectado {
+            color: #F44336;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="estado-analista">
+        <h2>Estado del Analista</h2>
+        <p>Nombre del Analista: <strong>Nombre Apellido</strong></p>
+        
+        <p>Estado: <span class="conectado">Conectado</span></p>
+        <!-- Para mostrar como desconectado, cambia la clase a "desconectado" -->
+        <!-- <p>Estado: <span class="desconectado">Desconectado</span></p> -->
+    </div>
+
+</body>
+</html>
